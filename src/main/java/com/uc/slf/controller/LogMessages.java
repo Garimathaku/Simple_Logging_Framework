@@ -1,5 +1,6 @@
 package com.uc.slf.controller;
 
+import ch.qos.logback.core.model.Model;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,5 +22,7 @@ public class LogMessages {
 
         return "Check the logs for messages!";
     }
+
+
 }
 
